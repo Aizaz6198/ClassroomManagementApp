@@ -7,7 +7,7 @@ const cookies=require("cookie-parser")
 const backendroutes=require("./routes/backend.routes");
 const app=express();
 app.use(cors({
-    origin: 'https://localhost3000',
+    origin: 'https://classroom-management-app.vercel.app/',
     credentials: true
   }));
 app.use(express.json());  
