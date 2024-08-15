@@ -42,7 +42,7 @@ export default function Login({ id }: { id: string }) {
                             value={formData.email}
                             onChange={handleChange}
                             placeholder="Enter Email"
-                            className="mt-1 block w-full text-xl border md:p-2 p-1 border-gray-300 rounded-md shadow-sm focus:ring-black focus:border-black sm:text-sm"
+                            className="mt-1 md:p-3 p-1 block w-full border border-gray-300 rounded-lg shadow-sm focus:ring-black focus:border-black sm:text-sm"
                         />
                     </div>
                     <div>
