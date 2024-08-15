@@ -41,7 +41,7 @@ export default function Login({ id }: { id: string }) {
                             name="email"
                             value={formData.email}
                             onChange={handleChange}
-                            placeholder="email compulsory"
+                            placeholder="Enter Email"
                             className="mt-1 block w-full text-xl border md:p-2 p-1 border-gray-300 rounded-md shadow-sm focus:ring-black focus:border-black sm:text-sm"
                         />
                     </div>
@@ -53,7 +53,7 @@ export default function Login({ id }: { id: string }) {
                             name="password"
                             value={formData.password}
                             onChange={handleChange}
-                            placeholder="Enter your password"
+                            placeholder="Enter password"
                             className="mt-1 md:p-3 p-1 block w-full border border-gray-300 rounded-lg shadow-sm focus:ring-black focus:border-black sm:text-sm"
                         />
                     </div>
